@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores y Aromas: Tu Recetario Digital</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('index.png');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+        }
+        .container {
+            text-align: center;
+            background-color: rgba(236, 100, 9, 0.39);
+            padding: 20px;
+            border-radius: 15px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: block;
+            width: 200px;
+            margin: 10px auto;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sabores y Aromas:<br> Tu Recetario Digital</h1>
+        <a href="Recetas_0023.html" class="button">Crear una cuenta</a>
+        <a href="Recetas_0024.html" class="button">Iniciar Sesión</a>
+    </div>
+</body>
+</html>

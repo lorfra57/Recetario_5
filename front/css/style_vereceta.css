@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+th, td {
+    border: 3px solid #ccc;
+    padding: 6px;
+    text-align: left;
+}
+.acciones {
+    text-align: center;
+}
+.button {
+    display: block;
+    width: 46px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+.button:hover {
+    background-color: #06b500;
+}
+.icono-casa {
+    float: right;
+    font-size: 5; /* Ajustar tamaño */
+    margin-right: 10px;
+    color: #0056b3;
+}
+.icono-casa:hover { 
+    color: #06b500;
+}
+ /* Estilos para los iconos (Font Awesome) */
+.fa-search, .fa-pencil-alt, .fa-trash-alt {
+    margin: 1 10px; /* Espacio entre íconos */
+}
